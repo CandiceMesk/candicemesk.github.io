@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
+---
+
+@charset "utf-8";
+
+$fredericka-font-family: "Fredericka the Great", serif;
+.site-title {
+  font-family: $fredericka-font-family;
+}
+
+/*$headline-font-family-nothing: $fredericka-font-family;*/
+/*$title-font-family: $fredericka-font-family;*/
+
+
+$description-font-family: $fredericka-font-family;
+.site-description {
+	margin-top: 2em;
+}
+
+@import "so-simple";
+
+
+
