@@ -4,6 +4,10 @@ layout: page
 
 {{ content }}
 
+{%- comment -%}
+
+I've decided that I will not show any collection data right now and keep the home page quite clean
+
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
     {%- comment -%}
@@ -15,3 +19,5 @@ layout: page
     {% include posts-limit.html %}
   {%- endif -%}
 </div>
+
+{%- endcomment -%}
