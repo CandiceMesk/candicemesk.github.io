@@ -23,7 +23,7 @@ email: candice@candicemesk.co.za
 description: >- # this means to ignore newlines until "baseurl:"
   "One cannot think well, love well, sleep well, if one has not dined well" ― Virginia Woolf
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://candicemesk.co.za" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://candicemesk.co.za" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/images/so-simple-site-logo_4.png" # path of site logo, e.g. "/assets/images/logo.png"
 skin: "/assets/css/skins/default.css"
 mathjax:
