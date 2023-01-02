@@ -1,0 +1,45 @@
+---
+layout: page
+permalink: /categories/
+title: Categories
+---
+
+<div id="archives">
+
+<!-- Dirty hack to get an empty array because no other way -->
+{%- assign completeCatList = "" | split: "," %}
+{%- assign allPosts = "" | split: "," %}
+
+<!-- Gets all the posts by collection -->
+{% for collection in site.collections %}
+    {% for post in site[collection.label] %}     
+      <!-- Add this post to the allPosts array -->     
+      {% assign allPosts = allPosts | push: post %}
+
+      <!-- Make the category list inclusive of this post's categories, no dups -->
+      {% assign completeCatList = completeCatList | concat: post.categories | sort_natural | uniq %}
+    {% endfor %}
+{% endfor %}
+
+{% for category in completeCatList %}
+  <div class="archive-group">
+    <div id="#{{ category | slugize }}"></div>
+    <p></p>
+
+    <!-- Name of category in heading -->
+    <h3 class="category-head">{{ category }}</h3>
+    <a name="{{ category | slugize }}"></a> <!-- need this for bookmarking -->
+    <ul>
+
+    {% for post in allPosts %}
+        {% if post.categories contains category %}
+          <article class="archive-item">
+            <li><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></li>
+          </article>
+        {% endif %}
+    {% endfor %}
+
+  </ul>
+  </div>
+{% endfor %}
+</div>

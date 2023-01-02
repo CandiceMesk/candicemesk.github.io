@@ -1,35 +1,27 @@
 ---
-title: "Chocolate Chip Cookies"
+title: "Chocolate Chip Biscuits"
 image: 
-  path: /images/chocolate-chip-cookies-lg.jpg
+  path: 
   thumbnail: /images/chocolate-chip-cookies-400x200.jpg
-  caption: "Photo from [Pexels](https://www.pexels.com)"
+  caption: ""
+categories: [Dessert]
 ---
 
-A chocolate chip cookie is a drop cookie that originated in the United States and features chocolate chips as its distinguishing ingredient.
+<!-- to get the main picture pack, add the following to image 
+  path: /images/chocolate-chip-cookies-lg.jpg
+-->
 
-The traditional recipe combines a dough composed of butter and both brown and white sugar with semi-sweet chocolate chips. Variations include recipes with other types of chocolate as well as additional ingredients such as nuts or oatmeal.
+![Photo from www.pexels.com]({{ '/images/chocolate-chip-cookies-400x200.jpg' | absolute_url }}){: .align-right}
 
-This recipe makes 4 dozen cookies.
+This is some info about how I make my chocolate chip biscuits using a recipe from the 
+website lancewood.
+
+This recipe makes ??? cookies.
 
 ## Ingredients
 
-* 2 1/4 cups all-purpose flour
-* 1 teaspoon baking soda
-* 1/2 teaspoon salt
-* 1 cup butter, softened and cut to pieces
-* 1 cup sugar
-* 1 cup light brown sugar, packed
-* 2 teaspoons vanilla extract
-* 2 large eggs
-* 2 cups semi-sweet chocolate chips
-* 1/2 teaspoon nutmeg (optional)
-* 1 cup chopped pecans or walnuts (optional)
+* To be added
 
 ## Directions
 
-1. Preheat the oven to 350 F.
-2. In a medium bowl, whisk flour with baking soda, nutmeg and salt.
-3. In a large bowl, beat butter with sugar and brown sugar until creamy and light. Add vanilla and eggs, one at a time, and mix until incorporated.
-4. Gradually add dry mixture into the butter-sugar wet blend, mixing with a spatula until combined. Add chocolate chips and nuts until just mixed.
-5. Drop tablespoon-sized clumps onto un-greased cookie sheets. Bake for 8-12 minutes, or until pale brown. Allow to cool on the pan for a minute or three, then transfer cookies to a wire rack to finish cooling.
+1. To be added

@@ -4,6 +4,9 @@ image:
   path:
   thumbnail: /images/lc-tns-grill-pan.jpg
   caption:
+date:   2022-01-26 20:00:00 +0200
+categories: [Le Creuset]
+
 ---
 
 ![image-right]({{ '/images/lc-tns-grill-pan.jpg' | absolute_url }}){: .align-right}
