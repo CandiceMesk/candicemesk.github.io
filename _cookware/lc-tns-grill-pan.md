@@ -23,5 +23,4 @@ The 28cm is a great size if you're cooking for 2 to 4 people. There's ample spac
 In summary, I love this pan because it's much lighter than cast iron, my food glides around easily but still gets those lovely sear marks, and the cleaning up is a breeze!
 
 
-<i>If you're new to LC's cookware, there are some basic things to be mindful of. One, NEVER heat the pan up to the max of your stove top. If yours goes up to a 6, 4 should really be your max. In the oven it will be fine up to 260 degrees celsius, but most of us never run our ovens that warm anyway. Always let your oven or stove top heat up together with the pan - you never put a cold LC pan onto or into something hot. Similarly you never add or run cold water over a piping hot pan, something many people are tempted to do after cooking. Tssssssss is a satisfying sound, I know, but not always so good for your beloved LC pans.</i>
-
+{% include lc_care_guide.html %}
